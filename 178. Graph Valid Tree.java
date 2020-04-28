@@ -1,5 +1,6 @@
 // https://www.lintcode.com/problem/graph-valid-tree/description
 
+// https://www.geeksforgeeks.org/disjoint-set-data-structures/
 
 public class Solution {
     // Complexity : N*E(Node * Edges) [Can be optimized to union find by rank to Log(n)]
