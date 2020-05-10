@@ -3,12 +3,9 @@
 // https://www.geeksforgeeks.org/disjoint-set-data-structures/
 
 public class Solution {
+    
     // Complexity : N*E(Node * Edges) [Can be optimized to union find by rank to Log(n)]
-    /**
-     * @param n: An integer
-     * @param edges: a list of undirected edges
-     * @return: true if it's a valid tree, or false
-     */
+
     public boolean validTree(int n, int[][] edges) {
         int par[] = new int[n];
         
