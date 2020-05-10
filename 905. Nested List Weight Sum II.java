@@ -22,7 +22,7 @@ public class Solution {
                 levelData.add(item.getInteger());
                 data.put(depth, levelData);
             } else {
-                for(NestedInteger x: item.getList()) {
+                for( NestedInteger x: item.getList()) {
                     Stk.add(x);
                     D.add(depth + 1);
                 }
