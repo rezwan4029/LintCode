@@ -3,10 +3,7 @@
 // https://www.programcreek.com/2014/08/leetcode-nested-list-weight-sum-ii-java/
 
 public class Solution {
-    /**
-     * @param nestedList: a list of NestedInteger
-     * @return: the sum
-     */
+    
     public int depthSumInverse(List<NestedInteger> nestedList) {
         Stack<NestedInteger> Stk = new Stack<>();
         Stack<Integer> D = new Stack<>();
