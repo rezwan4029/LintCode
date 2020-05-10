@@ -20,6 +20,7 @@
  *     public List<NestedInteger> getList();
  * }
  */
+
 public class Solution {
     public int depthSum(List<NestedInteger> nestedList) {
         Queue<NestedInteger> Q = new LinkedList<>();
